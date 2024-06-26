@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+.chart-bg-container{
+    background-image: linear-gradient(to right, rgb(9, 134, 222), rgb(95, 171, 234));
+    min-height: 100vh;
+    font-family: "Ysabeau Infant", sans-serif;
+  font-optical-sizing: auto;
+   
+  }
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-text{
+    font-size: 2em;
+    font-weight: 550;
+    color: #e9d6f6;
+}
+.nav-text:hover{
+    color: beige;
+}
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.zoom-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.icon{
+    font-size: 34px;
+    color: rgb(13, 4, 76);
+}
+
+.btn{
+    background: lightblue;
+    outline: none;
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 180px;
+    height: 45px;
+    margin: 15px;
+    cursor: pointer;
+    color: rgb(15, 6, 86);
+}
+ 
+.btn-zoom{
+    width: 60px;
+    background-color: rgb(183, 201, 241);
+    padding: 10px;
+}
+
+.active{
+    color: rgb(244, 246, 248)!important;
+    background-color: rgb(199, 16, 215);
+    
+}
+.btn-zoom:hover{
+    background-color: rgb(182, 230, 123);
+}   
+.btn-download{
+    width: 50px;
+    background-color: transparent;
+}
+.download-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+.export-text{
+    font-size: 26px;
+    color: rgb(214, 231, 248);
+}:hover{
+    color: rgb(6, 108, 108);
+}
