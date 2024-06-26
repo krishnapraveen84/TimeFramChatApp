@@ -26,8 +26,17 @@ This is a React.js application that displays a chart using the Recharts library.
 ### 1. Clone the Repository
 
 ```bash
-git clone 
+git clone https://github.com/krishnapraveen84/TimeFramChatApp.git
 
-cd react-charting-app
+```
+# 2. Use Below Commands To view Application locally
+
+```bash
+
+cd react-charting-app 
 
 npm start
+
+```
+## Deployment using Render
+    > Link: https://timeframchartapp.onrender.com/
